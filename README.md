@@ -32,35 +32,6 @@ Ce site a été conçu pour présenter une agence de marketing digital, mettre e
 
 ---
 
-## 📂 Structure du projet
-
-
-**/app**
-├── favicon.ico
-├── globals.css
-├── layout.tsx
-├── page.tsx
-
-**/components**
-├── Navbar.tsx
-├── Hero.tsx
-├── About.tsx
-├── Service.tsx
-├── Pricing.tsx
-├── Contact.tsx
-├── Footer.tsx
-
-**/public**
-├── assets/
-├── next.svg
-
-.env
-.gitignore
-README.md
-package.json
-
----
-
 ## ✨ Fonctionnalités
 
 - Page d’accueil moderne et responsive (OK)  
@@ -108,6 +79,34 @@ API backend (NestJS, Node.js, PHP…)
 Services externes (Brevo, Mailgun, SendGrid)
 
 👉 La configuration se fera dans un fichier .env.local.
+
+
+## 📂 Structure du projet
+
+/app
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+├── page.tsx
+
+/components
+├── Navbar.tsx
+├── Hero.tsx
+├── About.tsx
+├── Service.tsx
+├── Pricing.tsx
+├── Contact.tsx
+├── Footer.tsx
+
+/public
+├── assets/
+├── next.svg
+
+.env
+.gitignore
+README.md
+package.json
+---
 
 📄 Licence
 
