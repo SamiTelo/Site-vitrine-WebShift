@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀  WebShift — Site Vitrine avec (NEXJS)
 
-## Getting Started
+Bienvenue sur mon dépôt officiel, WebShift un site vitrine moderne et responsive dédié aux services de marketing digital, d’acquisition, et de branding en ligne.
 
-First, run the development server:
 
-```bash
+📖 À propos
+
+Ce site a été conçu pour présenter une agence de marketing digital, mettre en avant ses expertises et permettre aux clients potentiels d’entrer facilement en contact.
+
+L’objectif :
+
+Valoriser les services digitaux
+Présenter un positionnement professionnel
+Montrer les résultats, études de cas et témoignages
+Convertir les visiteurs en prospects via un formulaire optimisé
+offrir un exemple concret permettant à d’autres développeurs, débutants ou expérimentés, de s’inspirer de bonnes pratiques et d’apprendre du code et de la structure du projet.
+
+
+NB: ceci est un prototype en cour de développement 
+
+
+🛠️ Technologies utilisées
+
+Next.js / React — Framework moderne et rapide
+TailwindCSS — Design responsive et performant
+TypeScript — Code robuste et maintenable
+Framer motion - Animation simple
+EmailJS / API interne – Pour l’envoi du formulaire de contact (a venir ) 
+
+📂 Structure du projet
+
+/app
+  ├── favicon.ico
+  ├── globals.css
+  ├── layout.tsx
+  ├── page.tsx
+
+/components
+  ├── Navbar.tsx
+  ├── Hero.tsx
+  ├── About.tsx
+  ├── Service.tsx
+  ├── Pricing.tsx
+  ├── Contact.tsx
+  ├── Footer.tsx
+
+/public
+  ├── assets/
+  ├── next.svg
+  
+.env
+.gitignore
+README.md
+package.json
+
+
+
+✨ Fonctionnalités
+
+Page d’accueil moderne et responsive (OK)
+section “Navbar” (OK)
+section “Hero” (OK)
+Section “À propos” (a venir)
+Section “Services” (a venir)
+Section “pricing” (a venir)
+Formulaire de contact fonctionnel (a venir)
+Design entièrement responsive (OK)
+Optimisation SEO basique (OK)
+
+
+
+🚀 Installation & Lancement
+
+1️⃣ Cloner le projet
+git clone https://github.com/username/nom-du-site.git
+cd nom-du-site
+2️⃣ Installer les dépendances
+npm install
+3️⃣ Lancer le serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+4️⃣ Build pour production
+npm run build
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧩 Configuration du formulaire de contact (a venir)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Au choix :
 
-## Learn More
+EmailJS (simple et sans backend)
+API backend (NestJS, Node, PHP…)
+Services externes (Brevo, Mailgun, SendGrid)
+Inclure ta clé ou ton endpoint dans .env.local.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📄 Licence
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Ce projet est sous licence MIT.
+Tu peux l’utiliser, le modifier et le redistribuer librement.
 
-## Deploy on Vercel
+👨‍💻 Auteur
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ton Nom / Tiemtore Samuel
+Email : samueltiemtore10@gmail.com
