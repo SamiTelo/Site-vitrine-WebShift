@@ -36,28 +36,28 @@ Ce site a été conçu pour présenter une agence de marketing digital, mettre e
 
 
 **/app**
- - favicon.ico
- - globals.css
- - layout.tsx
- - page.tsx
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+├── page.tsx
 
 **/components**
- - Navbar.tsx
- - Hero.tsx
- - About.tsx
- - Service.tsx
- - Pricing.tsx
- - Contact.tsx
- - Footer.tsx
+├── Navbar.tsx
+├── Hero.tsx
+├── About.tsx
+├── Service.tsx
+├── Pricing.tsx
+├── Contact.tsx
+├── Footer.tsx
 
 **/public**
- - assets/
- - next.svg
+├── assets/
+├── next.svg
 
-- .env
-- .gitignore
-- README.md
-- package.json
+.env
+.gitignore
+README.md
+package.json
 
 ---
 
