@@ -4,25 +4,27 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Navbar() {
+export default function Header() {
   const [open, setOpen] = useState(false);
+  
 
   return (
     <header className="w-full fixed top-6 left-0 z-40 px-[5%] transition-all duration-300">
-      <nav className="max-w-7xl mx-auto py-3 px-4 sm:px-6 lg:px-8 bg-white shadow-sm md:rounded-xl md:mt-2">
+      <nav className="max-w-7xl mx-auto py-3 px-4 sm:px-6 lg:px-8 bg-white/80 backdrop-blur shadow-sm md:rounded-xl md:mt-2">
         <div className="flex items-center justify-between h-16">
-
           {/* -------------------------------
                 Logo
           -------------------------------- */}
           <div className="flex items-center gap-4">
-            <div className="relative w-12 h-12 md:w-14 md:h-14">
-            <Image
-               src="/assets/logo.png"
-               alt="logo"
-               fill
-               className="object-contain"
-             />
+            <div
+              className="relative w-12 h-12 md:w-14 md:h-14"
+            >
+              <Image
+                src="/assets/logo.png"
+                alt="logo"
+                fill
+                className="object-contain"
+              />
             </div>
             <span className="text-xl md:text-2xl font-bold text-gray-800">
               WebShift
@@ -46,7 +48,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center">
             <Link
               href="https://github.com"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-[#9D4EDD] text-white rounded-full text-sm shadow-sm hover:scale-105 transition-all duration-300"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[#9D4EDD] text-white rounded-full text-sm shadow-sm hover:scale-105 hover:bg-black transition-all duration-300"
             >
               <MoveUpRight className="w-4 h-4" />
               Demander un devis
@@ -70,9 +72,17 @@ export default function Navbar() {
               strokeWidth={2}
             >
               {open ? (
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
               ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
               )}
             </svg>
           </button>
@@ -93,9 +103,9 @@ export default function Navbar() {
               <div className="border-t border-slate-200 mt-3 pt-3">
                 <Link
                   href="#"
-                  className="inline-flex items-center gap-2 px-8 mt-6 py-4 bg-[#9D4EDD] text-white rounded-full text-sm shadow-sm hover:scale-105 transition-all duration-300"
+                  className="inline-flex items-center gap-2 px-8 mt-6 py-4 bg-[#9D4EDD] text-white rounded-full text-sm shadow-sm hover:scale-105 hover:bg-black transition-all duration-300"
                 >
-                   <MoveUpRight className="w-4 h-4" />
+                  <MoveUpRight className="w-4 h-4" />
                   Demander un devis
                 </Link>
               </div>

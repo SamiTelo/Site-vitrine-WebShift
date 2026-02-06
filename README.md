@@ -1,88 +1,102 @@
-# 🚀 WebShift — Site Vitrine (Next.js)
+# WebShift — Showcase Website (Next.js)
 
-Bienvenue sur mon dépôt officiel, **WebShift** un site vitrine moderne et responsive dédié aux services de marketing digital, d’acquisition et de branding en ligne.
-
----
-
-## 📖 À propos
-
-Ce site a été conçu pour présenter une agence de marketing digital, mettre en avant ses expertises et permettre aux clients potentiels d’entrer facilement en contact.
+Welcome to my official repository, **WebShift**, a modern and responsive showcase website dedicated to digital marketing, acquisition, and online branding services.
 
 ---
 
-## 🎯 Objectifs du projet
+## About
 
-- Valoriser les services digitaux
-- Présenter un positionnement professionnel
-- Montrer les résultats, études de cas et témoignages
-- Convertir les visiteurs en prospects via un formulaire optimisé
-- Offrir un aspect pédagogique permettant à d’autres développeurs de s’inspirer de la structure, du code et des bonnes pratiques
-
-**NB :** Ceci est un prototype en cours de développement.
+This website was designed to showcase a digital marketing agency, highlight its areas of expertise, and allow potential clients to easily get in touch.
 
 ---
 
-## 🛠️ Technologies utilisées
+## Project Goals
 
-- **Next.js / React** — Framework moderne et rapide
-- **TailwindCSS** — Design responsive et performant
-- **TypeScript** — Code robuste et maintenable
-- **Framer Motion** — Animations fluides
-- **EmailJS / API interne (à venir)** — Pour l’envoi du formulaire de contact
+* Showcase digital services
+* Present a professional positioning
+* Display results, case studies, and testimonials
+* Convert visitors into leads through an optimized form
+* Offer a pedagogical aspect, allowing other developers to draw inspiration from the structure, code, and best practices
 
----
-
-## ✨ Fonctionnalités
-
-- Page d’accueil moderne et responsive (OK)  
-- Section **Navbar** (OK)  
-- Section **Hero** (OK)  
-- Section **À propos** (à venir)  
-- Section **Services** (à venir)  
-- Section **Pricing** (à venir)  
-- Formulaire de contact fonctionnel (à venir)  
-- Design entièrement responsive (OK)  
-- Optimisation SEO basique (OK)  
+**Note:** This is a prototype currently under development.
 
 ---
 
-## 🚀 Installation & Lancement
+## Technologies Used
 
-## 1️⃣ Cloner le projet  
+* **Next.js / React.js** — Modern and fast framework
+* **Tailwind CSS** — Responsive and high-performance design
+* **TypeScript** — Robust and maintainable code
+* **Framer Motion** — Smooth animations
+
+---
+
+## Features
+
+* Modern and responsive homepage (OK)
+* **Navbar** section (OK)
+* **Hero** section (OK)
+* Fully responsive design (OK)
+* Basic SEO optimization (OK)
+
+---
+
+## Upcoming Features
+
+* **About** section
+* **Services** section
+* **Pricing** section
+* **Testimonial** section
+* **CTA** section
+* **Footer** section
+* **EmailJS / Internal API (coming soon)** — For contact form submission
+
+---
+
+## Installation & Launch
+
+### Clone the project
 
 ```bash
-
-git clone https://github.com/username/nom-du-site.git
+git clone https://github.com/samiTelo/nom-du-site.git
 cd nom-du-site
-2️⃣ Installer les dépendances
+```
 
-bash
-Copier le code
+### Install dependencies
+
+```bash
 npm install
-3️⃣ Lancer le serveur de développement
+```
 
-bash
-Copier le code
+### Start the development server
+
+```bash
 npm run dev
-4️⃣ Build pour la production
+```
 
-bash
-Copier le code
+### Build for production
+
+```bash
 npm run build
+```
 
-🧩 Configuration du formulaire de contact (à venir)
+---
 
-Tu pourras choisir entre :
+## Contact Form Configuration (Coming Soon)
 
-EmailJS (simple, sans backend)
-API backend (NestJS, Node.js, PHP…)
-Services externes (Brevo, Mailgun, SendGrid)
+You will be able to choose between:
 
-👉 La configuration se fera dans un fichier .env.local.
+* **EmailJS** (simple, no backend required)
+* **Backend API** (NestJS, Node.js, PHP…)
+* **External services** (Brevo, Mailgun, SendGrid)
 
+The configuration will be done in a `.env.local` file.
 
-## 📂 Structure du projet
+---
 
+## Project Structure
+
+```
 /app
 ├── favicon.ico
 ├── globals.css
@@ -90,7 +104,7 @@ Services externes (Brevo, Mailgun, SendGrid)
 ├── page.tsx
 
 /components
-├── Navbar.tsx
+├── Header.tsx
 ├── Hero.tsx
 ├── About.tsx
 ├── Service.tsx
@@ -106,14 +120,18 @@ Services externes (Brevo, Mailgun, SendGrid)
 .gitignore
 README.md
 package.json
+```
+
 ---
 
-📄 Licence
+## License
 
-Ce projet est sous licence MIT.
-Tu peux l’utiliser, le modifier et le redistribuer librement.
+This project is licensed under the MIT License.
+You are free to use, modify, and redistribute it.
 
-👨‍💻 Auteur
+---
 
-Tiemtore Samuel (SAM DEV)
-📧 Email : samueltiemtore10@gmail.com
+## Author
+
+**Tiemtore Samuel (SAM DEV)**
+📧 Email: [samueltiemtore10@gmail.com](mailto:samueltiemtore10@gmail.com)
