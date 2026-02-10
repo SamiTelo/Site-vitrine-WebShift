@@ -36,6 +36,9 @@ This website was designed to showcase a digital marketing agency, highlight its 
 * Modern and responsive homepage (OK)
 * **Navbar** section (OK)
 * **Hero** section (OK)
+* **Banner** section with react-fast-marquee (ok)
+* **About** section (ok)
+* **Services** section
 * Fully responsive design (OK)
 * Basic SEO optimization (OK)
 
@@ -43,8 +46,6 @@ This website was designed to showcase a digital marketing agency, highlight its 
 
 ## Upcoming Features
 
-* **About** section
-* **Services** section
 * **Pricing** section
 * **Testimonial** section
 * **CTA** section
@@ -58,8 +59,8 @@ This website was designed to showcase a digital marketing agency, highlight its 
 ### Clone the project
 
 ```bash
-git clone https://github.com/samiTelo/nom-du-site.git
-cd nom-du-site
+git clone https://github.com/samiTelo/Site-vitrine-WebShift.git
+cd Site-vitrine-WebShift
 ```
 
 ### Install dependencies
@@ -133,5 +134,5 @@ You are free to use, modify, and redistribute it.
 
 ## Author
 
-**Tiemtore Samuel (SAM DEV)**
-📧 Email: [samueltiemtore10@gmail.com](mailto:samueltiemtore10@gmail.com)
+**Tiemtore Samuel**
+Email: [samueltiemtore10@gmail.com](mailto:samueltiemtore10@gmail.com)

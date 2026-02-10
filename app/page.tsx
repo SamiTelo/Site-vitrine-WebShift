@@ -3,8 +3,8 @@ import About from "@/components/About";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Header from "@/components/Header";
-import Partner from "@/components/Partner";
 import Services from "@/components/Services";
+import Banner from "@/components/Banner";
 
 
 
@@ -51,9 +51,11 @@ export default function HomePage() {
           <Hero/>
         </section>
         <section>
-          <Partner/>
+          <Banner/>
           <About/>
-          <Services/>
+        </section>
+        <section className="bg-[#F6F8FA] md:pt-30 md:pb-60 py-20">
+         <Services/>
         </section>
       </main>
 

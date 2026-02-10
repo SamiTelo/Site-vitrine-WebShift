@@ -6,7 +6,7 @@ import { MoveUpRight } from "lucide-react";
 
 export default function About() {
   return (
-    <div className="w-full max-w-7xl mx-auto md:mt-34 mt-14 md:mb-56 mb-12 flex flex-row flex-wrap  md:gap-30">
+    <div className="w-full max-w-7xl mx-auto md:mt-40 mt-16 md:mb-46 mb-20 flex flex-row flex-wrap  md:gap-30">
       {/* ---------------------------
             Images
       ---------------------------- */}
@@ -103,7 +103,7 @@ export default function About() {
                 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 200, damping: 10 }}
-                className="h-13 md:h-auto w-auto inline-flex justify-center items-center gap-2 bg-[#9D4EDD]  hover:bg-black text-white px-10 py-4 rounded-full "
+                className="h-12 md:h-auto w-fit  text-[14px] inline-flex justify-center items-center gap-2 bg-[#9D4EDD]  hover:bg-black text-white px-10 py-4 rounded-full "
               >
                 <MoveUpRight className="w-4 h-4" />
                 Started Now
