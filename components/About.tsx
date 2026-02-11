@@ -36,7 +36,7 @@ export default function About() {
           height={200}
           className="w-[120px] md:w-[252px] h-[250px] md:h-[360px]"
         />
-        <div className="bg-[#9D4EDD] w-[120px] md:w-[252px] md:h-[138px] h-[57px] rounded-xl absolute mt-65 md:mt-0 ml-28 md:ml-0 left-28 md:top-446 md:left-119 justify-items-start">
+        <div className="bg-[#9D4EDD] w-[120px] md:w-[252px] md:h-[138px] h-[57px] rounded-xl absolute mt-65 md:mt-0 ml-28 md:ml-0 left-28 md:top-451 md:left-119 justify-items-start">
          <p className="font-bold text-white text-xl md:text-4xl ml-4 md:ml-8 mt-1 md:mt-7">100%</p>
          <p className="font-bold text-white text-[9px] md:text-[16px] ml-4 md:ml-8 md:mt-2">QUALITE GARANTIE</p>
         </div>
@@ -106,7 +106,7 @@ export default function About() {
                 className="h-12 md:h-auto w-fit  text-[14px] inline-flex justify-center items-center gap-2 bg-[#9D4EDD]  hover:bg-black text-white px-10 py-4 rounded-full "
               >
                 <MoveUpRight className="w-4 h-4" />
-                Started Now
+                Voire plus
               </motion.div>
             </Link>
           </div>

@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Header from "@/components/Header";
 import Services from "@/components/Services";
 import Banner from "@/components/Banner";
+import Pricing from "@/components/Pricing";
 
 
 
@@ -54,8 +55,11 @@ export default function HomePage() {
           <Banner/>
           <About/>
         </section>
-        <section className="bg-[#F6F8FA] md:pt-30 md:pb-60 py-20">
+        <section className="bg-[#F6F8FA] md:pt-40 md:pb-60">
          <Services/>
+        </section>
+        <section className="md:pt-40 md:pb-60">
+          <Pricing/>
         </section>
       </main>
 

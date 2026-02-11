@@ -83,7 +83,7 @@ export default function Services() {
       ---------------------------- */}
       <motion.div
       variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.2 }}
-      className="flex flex-wrap gap-6 justify-center md:mt-24 mt-10 mx-6">
+      className="flex flex-wrap gap-6 justify-center md:mt-30 mt-10 mx-6">
         {services.map((serv, index) => (
           <motion.div
           variants={itemVariants}
