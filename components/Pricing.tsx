@@ -109,7 +109,7 @@ function FeatureItem({
     <div className="flex items-start justify-between px-8 mb-5 gap-4">
       <div className="flex items-start gap-3">
         <Image src={featureIcon} alt="feature" width={18} height={18} />
-        <span className="md:text-xs text-gray-600 leading-relaxed">{text}</span>
+        <span className="md:text-xs text-[12px] text-gray-600 leading-relaxed">{text}</span>
       </div>
 
       <Image src={symbol} alt="symbol" width={14} height={14} />
@@ -130,7 +130,7 @@ function PricingCard({ service }: { service: Service }) {
         stiffness: 80,
         damping: 12,
       }}
-      className="md:w-[314px] w-[345px] bg-white py-10 mt-24 rounded-[10px] border border-[#9D4EDD] hover:bg-[#F8F3FF] transition"
+      className="md:w-[314px] w-[345px] bg-white py-10 md:mt-24 mt-10 rounded-[10px] border border-[#9D4EDD] hover:bg-[#F8F3FF] transition"
     >
       {/* Header */}
       <div className="flex items-center justify-center gap-2 mb-8 mt-4">
@@ -140,12 +140,12 @@ function PricingCard({ service }: { service: Service }) {
           width={26}
           height={26}
         />
-        <h2 className="font-bold md:text-xl">{service.title}</h2>
+        <h2 className="font-bold text-xl">{service.title}</h2>
       </div>
 
       {/* Content */}
       <div className="text-center">
-        <p className="px-6 text-gray-600 md:text-sm">{service.description}</p>
+        <p className="px-6 text-gray-600 md:text-sm text-[14px]">{service.description}</p>
 
         <p className="mt-4 text-3xl font-bold">{service.pricing}</p>
 

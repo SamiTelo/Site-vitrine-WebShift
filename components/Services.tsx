@@ -57,7 +57,7 @@ export default function Services() {
     visible: { opacity: 1, y: 0 },
   };
   return (
-    <div className="w-full max-w-7xl mx-auto ">
+    <div className="w-full max-w-7xl mx-auto">
       {/* ---------------------------
             TITLE
       ---------------------------- */}
@@ -83,7 +83,7 @@ export default function Services() {
       ---------------------------- */}
       <motion.div
       variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.2 }}
-      className="flex flex-wrap gap-6 justify-center md:mt-30 mt-10 mx-6">
+      className="flex flex-wrap gap-6 justify-center md:mt-30 mt-12 mx-6">
         {services.map((serv, index) => (
           <motion.div
           variants={itemVariants}
@@ -110,7 +110,7 @@ export default function Services() {
               <h2 className="font-semibold text-[18px] md:text-xl px-10 mt-[15px]">
                 {serv.title}
               </h2>
-              <p className="mt-[13px] px-10 ">{serv.description}</p>
+              <p className="mt-[13px] px-10 text-gray-600  ">{serv.description}</p>
             </div>
           </motion.div>
         ))}

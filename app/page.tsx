@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Services from "@/components/Services";
 import Banner from "@/components/Banner";
 import Pricing from "@/components/Pricing";
+import Faq from "@/components/Faq";
 
 
 
@@ -55,11 +56,14 @@ export default function HomePage() {
           <Banner/>
           <About/>
         </section>
-        <section className="bg-[#F6F8FA] md:pt-40 md:pb-60">
+        <section className="bg-[#F6F8FA] md:pt-40 pt-20 md:pb-60 pb-30">
          <Services/>
         </section>
-        <section className="md:pt-40 md:pb-60">
+        <section className="md:pt-40 pt-20 md:pb-60 pb-26">
           <Pricing/>
+        </section>
+        <section className="bg-[#F6F8FA] md:pt-40 pt-18 md:pb-60 pb-30">
+          <Faq/>
         </section>
       </main>
 

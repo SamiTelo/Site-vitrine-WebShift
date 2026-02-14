@@ -38,7 +38,7 @@ export default function Accueil() {
           </div>
           <div>
             <h6 className="text-[#9D4EDD] text-xs text-center pt-2.5">
-              Jusqu’à 75 % de réduction sur l’hébergement Web
+              Jusqu’à 75 % de réduction sur vos abonnements
             </h6>
           </div>
         </motion.div>

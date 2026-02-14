@@ -1,6 +1,6 @@
 # WebShift — Showcase Website (Next.js)
 
-Welcome to my official repository, **WebShift**, a modern and responsive showcase website dedicated to digital marketing, acquisition, and online branding services.
+**WebShift**, a modern and responsive showcase website dedicated to digital marketing, acquisition, and online branding services.
 
 ---
 
