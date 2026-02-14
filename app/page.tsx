@@ -7,6 +7,7 @@ import Services from "@/components/Services";
 import Banner from "@/components/Banner";
 import Pricing from "@/components/Pricing";
 import Faq from "@/components/Faq";
+import Cta from "@/components/Cta";
 
 
 
@@ -64,6 +65,9 @@ export default function HomePage() {
         </section>
         <section className="bg-[#F6F8FA] md:pt-40 pt-18 md:pb-60 pb-30">
           <Faq/>
+        </section>
+        <section className="bg-[#9D4EDD] md:pt-40 pt-18 md:pb-40 pb-30">
+          <Cta/>
         </section>
       </main>
 

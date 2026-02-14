@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Title from "./Title";
@@ -74,7 +73,7 @@ export default function Services() {
         className="mx-6"
       >
         <Title
-          title="Fast, Reliable & Secure hosting"
+          title="Services"
           heading=" Why We’re the Perfect Choice for Your Hosting Choice for"
         />
       </motion.div>

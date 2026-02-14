@@ -96,6 +96,9 @@ const fadeUp: Variants = {
   },
 };
 
+{/* ----------------------------------------------------------------
+            FEATURE ITEMS
+  ---------------------------------------------------------------- */}
 function FeatureItem({
   featureIcon,
   symbol,
@@ -111,12 +114,14 @@ function FeatureItem({
         <Image src={featureIcon} alt="feature" width={18} height={18} />
         <span className="md:text-xs text-[12px] text-gray-600 leading-relaxed">{text}</span>
       </div>
-
       <Image src={symbol} alt="symbol" width={14} height={14} />
     </div>
   );
 }
 
+{/* ----------------------------------------------------------------
+            PRICING CARDS
+  ---------------------------------------------------------------- */}
 function PricingCard({ service }: { service: Service }) {
   return (
     <motion.div
@@ -172,6 +177,9 @@ function PricingCard({ service }: { service: Service }) {
   );
 }
 
+{/* ----------------------------------------------------------------
+            PRICING SECTION
+  ---------------------------------------------------------------- */}
 export default function Pricing() {
   return (
     <div className="w-full max-w-7xl mx-auto">
@@ -190,7 +198,7 @@ export default function Pricing() {
         className="mx-6"
       >
         <Title
-          title="Des stratégies digitales qui génèrent des résultats"
+          title="Pricing"
           heading="Choisissez l’offre marketing adaptée à vos objectifs"
         />
       </motion.div>
