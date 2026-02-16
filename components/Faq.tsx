@@ -53,8 +53,8 @@ export default function Faq() {
            Faq image
       ---------------------------- */}
       <motion.div
-        initial={{ y: -50, opacity: 0, scale: 0.95 }}
-        whileInView={{ y: 0, opacity: 1, scale: 1 }} // replace animate with whileInView and add viewport={{ once: false }} so that the animation triggers every time the element comes into view.
+        initial={{ x: 50, opacity: 0, scale: 0.95 }}
+        whileInView={{ x: 0, opacity: 1, scale: 1 }} // replace animate with whileInView and add viewport={{ once: false }} so that the animation triggers every time the element comes into view.
         viewport={{ once: false, amount: 0.5 }} // amount defines how much of the element should be visible
         transition={{
           duration: 1.5,

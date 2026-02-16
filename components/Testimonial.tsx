@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Title from "./Title";
-import Glissade from "./Glissade";
+import { CarouselPlugin } from "./Carousel";
 
 export default function Testimonial() {
   return (
@@ -31,26 +31,20 @@ export default function Testimonial() {
       {/* ---------------------------
             TESTIMONIAL
       ---------------------------- */}
-      <div className="flex flex-row flex-wrap-reverse md:gap-30 gap-16 justify-center">
-         {/* ---------------------------
-                Image
-           ---------------------------- */}
+      <div className="flex flex-row flex-wrap-reverse md:gap-20 gap-16 justify-center md:mt-40 mt-20">
+         {/* Images */}
            <div>
              <Image
                src="/assets/about-img2.png"
                alt="img hero"
-               width={204}
+               width={304}
                height={200}
-               className="w-[300px] md:w-[366px] md:h-[500px] h-auto mt-8 md:mt-16 mr-2 md:mr-6 rounded-2xl"
+               className="w-[300px] md:w-[366px] md:h-[500px] h-auto rounded-2xl"
              />
            </div>
-           {/* ---------------------------
-                Glissade
-           ---------------------------- */}
-             <div
-               className=""
-             >
-               <Glissade />
+           {/* carousel */}
+             <div>
+               <CarouselPlugin/>
              </div>
          </div>
     </div>
