@@ -2,25 +2,21 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-
-const services = [
+const blogPosts = [
   {
-    icon: "/assets/about-img2.png",
-    title: "Développement Web Choice for Your Hosting Choice for Why",
-    description:
-      "By admin | janv 2.2026  ",
+    img: "/assets/blog1.png",
+    title: "5 stratégies pour booster votre trafic web en 2026",
+    description: "Par WebShift | 2 janvier 2026",
   },
   {
-    icon: "/assets/about-img1.png",
-    title: "Développement Web Choice for Your Hosting Choice for Why",
-    description:
-      "By admin | fev 7.2026  ",
+    img: "/assets/blog2.png",
+    title: "Comment transformer vos visiteurs en clients fidèles",
+    description: "Par WebShift | 7 février 2026",
   },
   {
-    icon: "/assets/about-img2.png",
-    title: "Développement Web Choice for Your Hosting Choice for Why",
-    description:
-      "By admin | fev 20.2026  ",
+    img: "/assets/blog3.png",
+    title: "Tendances UX/UI à adopter pour votre site",
+    description: "Par WebShift | 20 février 2026",
   },
 ];
 
@@ -37,8 +33,9 @@ export default function Blog() {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
   };
+
   return (
-    <div className="w-full max-w-7xl mx-auto">
+    <div id="blog" className="w-full max-w-7xl mx-auto">
       {/* ---------------------------
             TITLE
       ---------------------------- */}
@@ -47,13 +44,15 @@ export default function Blog() {
           <div className="text-center w-fit text-[10px] md:text-xs bg-[#EBDCF8] text-[#9D4EDD] px-6 py-2 rounded-full ">
             Blog
           </div>
-           <h1 className="font-semibold text-2xl md:text-4xl mt-10">
-              Most Common Question Most Common Question Most Question Most
-            </h1>
+          <h1 className="font-semibold text-2xl md:text-4xl mt-10">
+           Les dernières tendances et conseils marketing digital pour booster votre visibilité et convertir vos visiteurs en clients.
+          </h1>
         </div>
         <div className="md:w-[400px] mt-16">
-          <p> Alternative innovation network environmental whiteboard pursue for
-              premier methodsempowerment go forward opportunities  premier methodsempowerment go forward opportunities Alternative innovation network </p>
+          <p className="text-gray-600">
+           Retrouvez nos articles, études de cas et guides pratiques pour optimiser votre stratégie digitale, augmenter votre trafic, améliorer
+            votre visibilité en ligne et convertir efficacement vos visiteurs en clients.
+          </p>
         </div>
       </div>
     
@@ -65,9 +64,9 @@ export default function Blog() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: false, amount: 0.2 }}
-        className="flex flex-wrap md:gap-6 gap-10 justify-center md:mt-30 mt-12 mx-6 "
+        className="flex flex-wrap md:gap-6 gap-10 justify-center md:mt-30 mt-12 mx-6"
       >
-        {services.map((serv, index) => (
+        {blogPosts.map((post, index) => (
           <motion.div
             variants={itemVariants}
             key={index}
@@ -75,21 +74,23 @@ export default function Blog() {
           >
             <div className="mb-6 -mt-6 mx-4">
               <Image
-                src={serv.icon}
-                alt="logo"
+                src={post.img}
+                alt={`Article: ${post.title}`}
                 width={308}
                 height={280}
-                className=" md:w-[408px] md:h-[300px] w-[306px] h-[246px] rounded-3xl "
+                className="md:w-[408px] md:h-[300px] w-[306px] h-[246px] rounded-3xl"
               />
             </div>
             <div className="px-6">
-               <p className="mt-[13px] mb-2 text-gray-600 text-xs  ">
-                {serv.description}
+              <p className="mt-[13px] mb-2 text-gray-600 text-xs">
+                {post.description}
               </p>
               <h2 className="font-semibold text-[18px] md:text-xl mb-4">
-                {serv.title}
+                {post.title}
               </h2>
-              <span className="text-[#9D4EDD]">read more</span>
+              <span className="text-[#9D4EDD] cursor-pointer hover:underline">
+                Lire la suite
+              </span>
             </div>
           </motion.div>
         ))}

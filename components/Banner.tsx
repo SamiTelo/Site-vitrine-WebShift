@@ -13,9 +13,9 @@ const logos = [
 export default function Banner() {
   return (
     <motion.div
-     initial={{ y: 100, opacity: 0 }} // position en dessous de l’écran
-        whileInView={{ y: 0, opacity: 1 }} // remonte en place
-        viewport={{ once: false, amount: 0.5 }} // déclenche une seule fois
+     initial={{ y: 100, opacity: 0 }} 
+        whileInView={{ y: 0, opacity: 1 }} 
+        viewport={{ once: false, amount: 0.5 }} 
         transition={{
           duration: 1.5,
           type: "spring",
@@ -29,8 +29,8 @@ export default function Banner() {
 
       {/* Marquee */}
       <Marquee
-        pauseOnHover={true}    // pause au hover
-        speed={50}             // vitesse 
+        pauseOnHover={true} 
+        speed={50}     
         gradient={false}      
       >
         {/* Duplication pour scroll infini */}

@@ -14,12 +14,13 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#f8f9fb] pt-16 md:pt-26 pb-8 px-6 md:px-12 lg:px-24 font-sans text-[#4b5563]">
+    <footer id="contact" className="bg-[#f8f9fb] pt-16 md:pt-26 pb-8 px-6 md:px-12 lg:px-24 font-sans text-[#4b5563]">
       <div className="max-w-7xl mx-auto">
         {/*----------------------------------------------------------
                      Grid principale
         ------------------------------------------------------------*/}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+          
           {/*----------------------------------------------------------
                     Logo & Description
           -----------------------------------------------------------*/}
@@ -28,17 +29,17 @@ const Footer = () => {
               <div className="relative w-12 h-12 md:w-12 md:h-12">
                 <Image
                   src="/assets/logo.png"
-                  alt="logo"
+                  alt="logo WebShift"
                   fill
                   className="object-contain"
                 />
               </div>
-              <span className="text-2xl font-bold text-[#0f172a]"> WebShift</span>
+              <span className="text-2xl font-bold text-[#0f172a]">WebShift</span>
             </div>
             <p className="leading-relaxed text-sm max-w-xs">
-              Take control of your online presence with top-tier web hosting
-              solutions. Whether youre launching your first project or managing
-              multiple websites.
+              WebShift aide les entreprises à développer leur présence digitale, 
+              générer du trafic qualifié et convertir leurs visiteurs en clients grâce 
+              à des stratégies marketing personnalisées.
             </p>
             <div className="flex gap-3">
               {[Facebook, Youtube, Linkedin, Twitter].map((Icon, index) => (
@@ -46,7 +47,7 @@ const Footer = () => {
                   key={index}
                   href="#"
                   className="w-9 h-9 flex items-center justify-center rounded-full bg-[#EBDCF8] text-[#0f172a] hover:bg-[#9D4EDD] hover:text-white transition-colors"
-                  aria-label={`Link to ${Icon.name}`}
+                  aria-label={`Lien vers ${Icon.name}`}
                 >
                   <Icon size={18} fill="currentColor" stroke="none"/>
                 </a>
@@ -55,19 +56,19 @@ const Footer = () => {
           </div>
 
           {/*------------------------------------------------------------------
-                     Quick Links
+                     Services Links
           ------------------------------------------------------------------*/}
-          <div>
+          <div className="ml-0 md:ml-20">
             <h3 className="text-xl font-bold text-[#0f172a] mb-6">
-              Quick Links
+              Services
             </h3>
             <ul className="space-y-4 text-sm">
               {[
-                "About Us",
-                "Support Center",
-                "Domain Search",
-                "My Account",
-                "Contact Us",
+                "Stratégie Digitale",
+                "SEO & SEA",
+                "Marketing sur les Réseaux Sociaux",
+                "Création de Sites Web",
+                "Design UX/UI",
               ].map((link) => (
                 <li key={link}>
                   <a
@@ -82,19 +83,19 @@ const Footer = () => {
           </div>
 
           {/*---------------------------------------------------------------
-                    Useful Links
+                   Quick Links
           -------------------------------------------------------------*/}
           <div>
             <h3 className="text-xl font-bold text-[#0f172a] mb-6">
-              Useful Links
+              Liens rapides
             </h3>
             <ul className="space-y-4 text-sm">
               {[
-                "Cloud Hosting",
-                "VPS Hosting",
-                "Shared Hosting",
-                "WP Hosting",
-                "Web Hosting",
+                "À propos",
+                "Centre d'assistance",
+                "Nos études de cas",
+                "Mon compte",
+                "Contactez-nous",
               ].map((link) => (
                 <li key={link}>
                   <a
@@ -111,16 +112,15 @@ const Footer = () => {
           {/*---------------------------------------------------------------------------
                     Carte Contact
           -----------------------------------------------------------------------------------*/}
-          <div className="bg-white p-8 rounded-3xl w-[400px] -ml-28">
+          <div className="bg-white p-8 rounded-3xl md:w-[400px] w-[310px] md:-ml-28">
             <span className="text-[#6366f1] text-xs font-bold tracking-wider">
-              Address
+              Contact
             </span>
             <h3 className="text-2xl font-bold text-[#0f172a] mt-2 mb-4">
-              Ready To Get Started?
+              Prêt à lancer votre projet ?
             </h3>
             <p className="text-xs text-gray-400 mb-6 leading-relaxed">
-              It is a long established fact that a reader will be distracted by
-              the readable content.
+              Contactez notre équipe pour discuter de votre stratégie digitale et découvrir comment WebShift peut booster vos performances en ligne.
             </p>
 
             <div className="space-y-4">
@@ -129,8 +129,8 @@ const Footer = () => {
                   <Mail size={20} />
                 </div>
                 <div className="text-sm">
-                  <p>contact.tech@gmail.com</p>
-                  <p>info@niotech.com</p>
+                  <p>contact@webshift.com</p>
+                  <p>support@webshift.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -138,8 +138,8 @@ const Footer = () => {
                   <Phone size={20} />
                 </div>
                 <div className="text-sm font-medium">
-                  <p>+880 123 654 789</p>
-                  <p>+001 6520 698 00</p>
+                  <p>+225 01 23 45 67 89</p>
+                  <p>+225 07 89 01 23 45</p>
                 </div>
               </div>
             </div>
@@ -151,14 +151,13 @@ const Footer = () => {
         ----------------------------------------------------------------------------------------------------------*/}
         <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-600 text-center md:text-left">
-            Copyright {currentYear} HOSTC Theme By{" "}
-            <span className="font-semibold">FleexStudio</span> | All Rights
-            Reserved
+            Copyright {currentYear} WebShift | Design & développement par{" "}
+            <span className="font-semibold">SAM DEV</span> | Tous droits réservés
           </p>
           <div className="flex items-center gap-4 bg-white p-2 px-4 rounded-lg">
             <Image
-              src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Google_Pay_%28GPay%29_Logo_%282020%29.svg"
-              alt="GPay"
+              src="/assets/google-pay.png"
+              alt="Google Pay"
               width={24}
               height={24}
               className="h-5 w-auto"

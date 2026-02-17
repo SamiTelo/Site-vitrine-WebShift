@@ -38,7 +38,12 @@ This website was designed to showcase a digital marketing agency, highlight its 
 * **Hero** section (OK)
 * **Banner** section with react-fast-marquee (ok)
 * **About** section (ok)
-* **Services** section
+* **Services** section (ok)
+* **Pricing** section (ok)
+* **Testimonial** section (ok)
+* **CTA** section (ok)
+* **blog** section (ok)
+* **Footer** section (ok)
 * Fully responsive design (OK)
 * Basic SEO optimization (OK)
 
@@ -46,10 +51,6 @@ This website was designed to showcase a digital marketing agency, highlight its 
 
 ## Upcoming Features
 
-* **Pricing** section
-* **Testimonial** section
-* **CTA** section
-* **Footer** section
 * **EmailJS / Internal API (coming soon)** — For contact form submission
 
 ---

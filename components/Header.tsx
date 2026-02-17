@@ -39,6 +39,8 @@ export default function Header() {
             <NavLink href="#about">About</NavLink>
             <NavLink href="#services">Services</NavLink>
             <NavLink href="#pricing">Pricing</NavLink>
+            <NavLink href="#faq">FAQ</NavLink>
+            <NavLink href="#blog">Blog</NavLink>
             <NavLink href="#contact">Contact</NavLink>
           </div>
 
@@ -47,7 +49,7 @@ export default function Header() {
           -------------------------------- */}
           <div className="hidden md:flex items-center">
             <Link
-              href="https://github.com"
+              href="#"
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#9D4EDD] text-white rounded-full text-sm shadow-sm hover:scale-105 hover:bg-black transition-all duration-300"
             >
               <MoveUpRight className="w-4 h-4" />
@@ -98,6 +100,8 @@ export default function Header() {
               <NavLinkMobile href="#about">About</NavLinkMobile>
               <NavLinkMobile href="#services">Services</NavLinkMobile>
               <NavLinkMobile href="#pricing">Pricing</NavLinkMobile>
+              <NavLink href="#FAQ">FAQ</NavLink>
+              <NavLink href="#blog">Blog</NavLink>
               <NavLinkMobile href="#contact">Contact</NavLinkMobile>
 
               <div className="border-t border-slate-200 mt-3 pt-3">

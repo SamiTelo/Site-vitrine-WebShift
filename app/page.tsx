@@ -59,22 +59,22 @@ export default function HomePage() {
           <Banner/>
           <About/>
         </section>
-        <section className="bg-[#F6F8FA] md:pt-40 pt-20 md:pb-60 pb-30">
+        <section className="bg-[#F6F8FA] md:pt-40 pt-20 md:pb-52 pb-30">
          <Services/>
         </section>
-        <section className="md:pt-40 pt-20 md:pb-60 pb-26">
+        <section className="md:pt-40 pt-20 md:pb-40 pb-26">
           <Pricing/>
         </section>
-        <section className="bg-[#F6F8FA] md:pt-40 pt-18 md:pb-60 pb-30">
+        <section className="bg-[#F6F8FA] md:pt-40 pt-18 md:pb-52 pb-30">
           <Faq/>
         </section>
         <section className="md:pt-40 pt-18 md:pb-40 pb-30">
           <Testimonial/>
         </section>
-        <section className="bg-[#9D4EDD] md:pt-40 pt-18 md:pb-40 pb-30">
+        <section className="bg-[#9D4EDD] md:pt-30 pt-18 md:pb-30 pb-30">
           <Cta/>
         </section>
-        <section className="md:pt-40 pt-20 md:pb-60 pb-26 ">
+        <section className="md:pt-40 pt-20 md:pb-52 pb-26 ">
           <Blog/>
         </section>
       </main>
