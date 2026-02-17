@@ -41,11 +41,11 @@ export default function About() {
         />
 
         {/* Bloc +250 projets */}
-        <div className="bg-[#9D4EDD] w-[120px] md:w-[252px] md:h-[138px] h-[57px] rounded-xl absolute top-[220px] left-[119px] md:top-[388px] md:left-[346px] flex flex-col justify-center items-start p-4">
+        <div className="bg-[#9D4EDD] w-[120px] md:w-[252px] md:h-[138px] h-[50px] rounded-xl absolute top-[260px] left-[194px] md:top-[388px] md:left-[346px] flex flex-col justify-center items-start p-4">
           <p className="font-bold text-white text-xl md:text-4xl ml-4 md:ml-8">
             100%
           </p>{" "}
-          <p className="font-bold text-white text-[9px] md:text-[16px] ml-4 md:ml-8 md:mt-2">
+          <p className="font-bold text-white text-[7px] md:text-[16px] ml-4 md:ml-8 md:mt-2">
             QUALITE GARANTIE
           </p>
         </div>
@@ -109,7 +109,7 @@ export default function About() {
           </p>
 
           <div className="mt-3 pt-3">
-            <Link href="#">
+            <Link href="">
               <motion.div
                 whileHover={{
                   scale: 1.05,

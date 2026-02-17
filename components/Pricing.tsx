@@ -146,7 +146,7 @@ function PricingCard({ service }: { service: Service }) {
           href="https://github.com"
           className="inline-flex items-center mt-8 px-16 py-3 rounded-xl bg-[#9D4EDD] text-white text-sm shadow-sm hover:scale-105 hover:bg-black transition-all"
         >
-          Demander un devis
+          Obtenir le forfait
         </Link>
       </div>
 

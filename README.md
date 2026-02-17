@@ -18,7 +18,7 @@ This website was designed to showcase a digital marketing agency, highlight its 
 * Convert visitors into leads through an optimized form
 * Offer a pedagogical aspect, allowing other developers to draw inspiration from the structure, code, and best practices
 
-**Note:** This is a prototype currently under development.
+**Note:** This is a prototype currently under development. this site is compatible only mobile and PC.
 
 ---
 

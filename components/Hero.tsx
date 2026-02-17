@@ -55,7 +55,7 @@ export default function Accueil() {
         </p>
 
         <div className="mt-8 flex flex-col items-center gap-4 md:flex-row md:justify-start md:gap-8">
-          <Link href="#">
+          <Link href="#services">
             <motion.div
               whileHover={{
                 scale: 1.05,
@@ -71,7 +71,7 @@ export default function Accueil() {
             </motion.div>
           </Link>
 
-          <Link href="#">
+          <Link href="#contact">
             <motion.div
               whileHover={{
                 scale: 1.05,

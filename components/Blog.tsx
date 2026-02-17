@@ -40,22 +40,46 @@ export default function Blog() {
             TITLE
       ---------------------------- */}
       <div className="flex flex-row justify-center flex-wrap md:gap-35 gap-0 px-6 md:px-0">
-        <div className="md:w-[700px]">
+        <motion.div
+          initial={{ y: 100, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: false, amount: 0.2 }}
+          transition={{
+            duration: 0.8,
+            type: "spring",
+            stiffness: 80,
+            damping: 12,
+          }}
+          className="md:w-[700px]"
+        >
           <div className="text-center w-fit text-[10px] md:text-xs bg-[#EBDCF8] text-[#9D4EDD] px-6 py-2 rounded-full ">
             Blog
           </div>
           <h1 className="font-semibold text-2xl md:text-4xl mt-10">
-           Les dernières tendances et conseils marketing digital pour booster votre visibilité et convertir vos visiteurs en clients.
+            Les dernières tendances et conseils marketing digital pour booster
+            votre visibilité et convertir vos visiteurs en clients.
           </h1>
-        </div>
-        <div className="md:w-[400px] mt-16">
+        </motion.div>
+        <motion.div
+         initial={{ x: 50, opacity: 0, scale: 0.95 }}
+            whileInView={{ x: 0, opacity: 1, scale: 1 }}
+            viewport={{ once: false, amount: 0.5 }}
+            transition={{
+              duration: 1.5,
+              type: "spring",
+              stiffness: 100,
+              damping: 20,
+            }}
+        className="md:w-[400px] mt-16">
           <p className="text-gray-600">
-           Retrouvez nos articles, études de cas et guides pratiques pour optimiser votre stratégie digitale, augmenter votre trafic, améliorer
-            votre visibilité en ligne et convertir efficacement vos visiteurs en clients.
+            Retrouvez nos articles, études de cas et guides pratiques pour
+            optimiser votre stratégie digitale, augmenter votre trafic,
+            améliorer votre visibilité en ligne et convertir efficacement vos
+            visiteurs en clients.
           </p>
-        </div>
+        </motion.div>
       </div>
-    
+
       {/* ---------------------------
             CARDS
       ---------------------------- */}
