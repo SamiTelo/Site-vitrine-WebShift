@@ -51,8 +51,8 @@ This website was designed to showcase a digital marketing agency, highlight its 
 
 ## Upcoming Features
 
-* **EmailJS / Internal API (coming soon)** — For contact form submission
-* **Form** for estimate submission
+* **EmailJS / Internal API (coming soon)** — For estimate submission
+* **Add other feature and section**
 
 ---
 

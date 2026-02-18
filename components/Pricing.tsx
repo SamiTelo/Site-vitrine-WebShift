@@ -143,7 +143,7 @@ function PricingCard({ service }: { service: Service }) {
         <p className="px-6 text-gray-600 md:text-sm text-[14px]">{service.description}</p>
         <p className="mt-4 text-3xl font-bold">{service.pricing}</p>
         <Link
-          href="https://github.com"
+          href=""
           className="inline-flex items-center mt-8 px-16 py-3 rounded-xl bg-[#9D4EDD] text-white text-sm shadow-sm hover:scale-105 hover:bg-black transition-all"
         >
           Obtenir le forfait
