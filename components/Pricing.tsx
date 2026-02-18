@@ -1,6 +1,6 @@
 "use client";
 
-import { Zap, TrendingUp, BarChart2, LucideIcon } from "lucide-react"; // icônes solides
+import { Zap, TrendingUp, BarChart2, LucideIcon } from "lucide-react"; 
 import { motion, Variants } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
@@ -11,7 +11,7 @@ import Title from "./Title";
 ---------------------------- */
 type Service = {
   id: string;
-  cardIcon: LucideIcon; // type correct pour Lucide
+  cardIcon: LucideIcon; 
   featureIcon: string;
   symbol: string;
   title: string;
@@ -26,7 +26,7 @@ type Service = {
 const services: Service[] = [
   {
     id: "starter",
-    cardIcon: Zap, // icône pour Starter
+    cardIcon: Zap, 
     featureIcon: "/assets/icon2.png",
     symbol: "/assets/symbol.png",
     title: "Starter",
@@ -47,7 +47,7 @@ const services: Service[] = [
   },
   {
     id: "growth",
-    cardIcon: TrendingUp, // icône pour Growth
+    cardIcon: TrendingUp, 
     featureIcon: "/assets/icon2.png",
     symbol: "/assets/symbol.png",
     title: "Growth",
@@ -67,7 +67,7 @@ const services: Service[] = [
   },
   {
     id: "performance",
-    cardIcon: BarChart2, // icône pour Performance
+    cardIcon: BarChart2, 
     featureIcon: "/assets/icon2.png",
     symbol: "/assets/symbol.png",
     title: "Performance",

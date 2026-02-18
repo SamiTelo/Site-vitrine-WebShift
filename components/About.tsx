@@ -40,7 +40,7 @@ export default function About() {
           className="w-[120px] md:w-[252px] h-[250px] md:h-[360px] rounded-xl"
         />
 
-        {/* Bloc +250 projets */}
+        {/* Bloc 100% qualité */}
         <div className="bg-[#9D4EDD] w-[120px] md:w-[252px] md:h-[138px] h-[50px] rounded-xl absolute top-[260px] left-[194px] md:top-[388px] md:left-[346px] flex flex-col justify-center items-start p-4">
           <p className="font-bold text-white text-xl md:text-4xl ml-4 md:ml-8">
             100%

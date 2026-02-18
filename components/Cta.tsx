@@ -27,7 +27,7 @@ export default function Cta() {
           <div className="w-fit px-4 py-1.5 bg-white/20 rounded-full">
             <span className="text-white text-sm font-medium">WebShift</span>
           </div>
-
+          {/* Text */}
           <div className="mt-4">
             <h1 className="font-semibold text-2xl md:text-4xl">
               Boostez votre présence digitale et générez plus de clients

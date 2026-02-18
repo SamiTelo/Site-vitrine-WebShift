@@ -22,6 +22,7 @@ export default function Accueil() {
         }}
         className="flex-1 py-8 md:mt-12"
       >
+        {/* Badge */}
         <motion.div
           animate={{ y: [0, -5, 0] }}
           transition={{ repeat: Infinity, duration: 1, ease: "easeInOut" }}
@@ -43,6 +44,8 @@ export default function Accueil() {
           </div>
         </motion.div>
         <br></br>
+
+        {/* Text */}
         <h1 className="font-bold text-4xl md:text-6xl leading-tight text-center md:text-left">
           Transformez votre <span className="text-[#9D4EDD]">présence</span> en
           ligne en un écosystème digital
@@ -53,7 +56,8 @@ export default function Accueil() {
           aidons à renforcer votre présence en ligne et à obtenir une croissance
           concrète, durable et mesurable.
         </p>
-
+ 
+        {/* Buttom */}
         <div className="mt-8 flex flex-col items-center gap-4 md:flex-row md:justify-start md:gap-8">
           <Link href="#services">
             <motion.div

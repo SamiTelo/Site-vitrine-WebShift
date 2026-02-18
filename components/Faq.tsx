@@ -21,15 +21,16 @@ export default function Faq() {
             damping: 20,
           }}
         >
+          {/* Badge */}
           <div className="text-center w-fit text-[10px] md:text-xs bg-[#EBDCF8] text-[#9D4EDD] px-6 py-2 rounded-full ">
             FAQ
           </div>
-
+          
+          {/* Text */}
           <div className="mt-4">
             <h1 className="font-semibold text-2xl md:text-4xl">
               Questions sur nos <span className="text-[#9D4EDD]">services digitaux ?</span>
             </h1>
-
             <p className="md:text-[14px] text-xs text-gray-600 mt-4 w-fit md:w-[450px]">
               Découvrez comment WebShift accompagne les entreprises dans leur
               croissance digitale, de la stratégie à la mise en œuvre, avec
