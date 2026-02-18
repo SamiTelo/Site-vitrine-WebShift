@@ -52,6 +52,7 @@ This website was designed to showcase a digital marketing agency, highlight its 
 ## Upcoming Features
 
 * **EmailJS / Internal API (coming soon)** — For contact form submission
+* **Form** for estimate submission
 
 ---
 
@@ -108,10 +109,14 @@ The configuration will be done in a `.env.local` file.
 /components
 ├── Header.tsx
 ├── Hero.tsx
+├── Banner.tsx
 ├── About.tsx
 ├── Service.tsx
 ├── Pricing.tsx
-├── Contact.tsx
+├── Testimonial.tsx
+├── Faq.tsx
+├── Cta.tsx
+├── blog.tsx
 ├── Footer.tsx
 
 /public
