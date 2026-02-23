@@ -4,7 +4,7 @@ import { Zap, TrendingUp, BarChart2, LucideIcon } from "lucide-react";
 import { motion, Variants } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import Title from "./Title";
+import { Title } from "./title";
 
 /* ---------------------------
    TYPES
@@ -168,7 +168,7 @@ function PricingCard({ service }: { service: Service }) {
 /* ---------------------------
    PRICING SECTION
 ---------------------------- */
-export default function Pricing() {
+export const Pricing = () => {
   return (
     <div id="pricing" className="w-full max-w-7xl mx-auto">
       {/* TITLE */}

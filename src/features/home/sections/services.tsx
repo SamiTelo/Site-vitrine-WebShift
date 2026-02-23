@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import Title from "./Title";
 import {
   Monitor,
   Code,
@@ -9,6 +8,7 @@ import {
   Users,
   Palette,
 } from "lucide-react";
+import { Title } from "./title";
 
 const services = [
   {
@@ -49,7 +49,7 @@ const services = [
   },
 ];
 
-export default function Services() {
+export const Services = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {

@@ -1,9 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
-import { AccordionMultiple } from "./Accordéon";
 import Image from "next/image";
+import { AccordionMultiple } from "./accordéon";
 
-export default function Faq() {
+export const Faq = () => {
   return (
     <div id="faq" className="w-full max-w-7xl mx-auto flex flex-row flex-wrap-reverse md:gap-30 gap-16 justify-center">
       {/* ---------------------------

@@ -26,7 +26,7 @@ const items = [
   },
 ]
 
-export function AccordionMultiple() {
+export const AccordionMultiple = () => {
   return (
     <Accordion
       type="multiple"

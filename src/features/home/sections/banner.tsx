@@ -1,5 +1,5 @@
 "use client";
-
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
@@ -10,20 +10,30 @@ const logos = [
   "/assets/banner4.png",
 ];
 
-export default function Partner() {
+export const Banner = () => {
   return (
-    <div className="md:mt-24 mt-14 relative overflow-hidden">
+    <motion.div
+     initial={{ y: 100, opacity: 0 }} 
+        whileInView={{ y: 0, opacity: 1 }} 
+        viewport={{ once: false, amount: 0.5 }} 
+        transition={{
+          duration: 1.5,
+          type: "spring",
+          stiffness: 80,
+          damping: 12,
+        }}
+    className="md:mt-24 mt-14 relative overflow-hidden">
       {/* Gradient edges custom */}
       <div className="pointer-events-none absolute left-0 top-0 h-full w-16 md:w-80 bg-linear-to-r from-white to-transparent z-10" />
       <div className="pointer-events-none absolute right-0 top-0 h-full w-16 md:w-80 bg-linear-to-l from-white to-transparent z-10" />
 
       {/* Marquee */}
       <Marquee
-        pauseOnHover={true}    
-        speed={50}             
+        pauseOnHover={true} 
+        speed={50}     
         gradient={false}      
       >
-        {/* Duplication for infini scroll */}
+        {/* Duplication pour scroll infini */}
         {[...logos, ...logos].map((src, index) => (
           <div key={index} className="mx-6 md:mx-12">
             <Image
@@ -39,6 +49,6 @@ export default function Partner() {
 
       {/* Divider */}
       <div className="w-full border-t border-slate-200 mt-10 md:mt-24" />
-    </div>
+    </motion.div>
   );
 }

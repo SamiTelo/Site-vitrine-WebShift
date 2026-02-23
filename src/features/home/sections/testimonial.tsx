@@ -1,10 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Title from "./Title";
-import { CarouselPlugin } from "./Carousel";
+import { CarouselPlugin } from "./carousel";
+import { Title } from "./title";
 
-export default function Testimonial() {
+export const Testimonial = () => {
   return (
     <div className="w-full max-w-7xl mx-auto">
       {/* ---------------------------

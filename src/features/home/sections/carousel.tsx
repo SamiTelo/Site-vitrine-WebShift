@@ -12,12 +12,11 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
-export function CarouselPlugin() {
+export const CarouselPlugin = () => {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true }),
   );
 
-  // Témoignages crédibles pour WebShift
   const testimonials = [
     {
       name: "Aminata Koné",

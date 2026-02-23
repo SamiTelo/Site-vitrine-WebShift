@@ -20,7 +20,7 @@ const blogPosts = [
   },
 ];
 
-export default function Blog() {
+export const Blog = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {

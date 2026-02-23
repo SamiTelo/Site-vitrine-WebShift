@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
-export default function Cta() {
+export const Cta = () => {
   return (
     <div className="w-full max-w-7xl mx-auto flex flex-row flex-wrap-reverse md:gap-30 gap-16 justify-center">
       
@@ -27,6 +27,7 @@ export default function Cta() {
           <div className="w-fit px-4 py-1.5 bg-white/20 rounded-full">
             <span className="text-white text-sm font-medium">WebShift</span>
           </div>
+          
           {/* Text */}
           <div className="mt-4">
             <h1 className="font-semibold text-2xl md:text-4xl">

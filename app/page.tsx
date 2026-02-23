@@ -1,15 +1,6 @@
+import { HomeView } from "@/src/features/home";
 import type { Metadata } from "next";
-import About from "@/components/About";
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
-import Header from "@/components/Header";
-import Services from "@/components/Services";
-import Banner from "@/components/Banner";
-import Pricing from "@/components/Pricing";
-import Faq from "@/components/Faq";
-import Cta from "@/components/Cta";
-import Blog from "@/components/Blog";
-import Testimonial from "@/components/Testimonial";
+
 
 
 
@@ -40,49 +31,8 @@ export const metadata: Metadata = {
 
 
 
-export default function HomePage() {
+export default function Page() {
   return (
-    <>
-      {/* ---------------------------
-            Header global
-      ---------------------------- */}
-      <Header />
-
-      {/* ---------------------------
-            Main content
-      ---------------------------- */}
-      <main>
-        <section className="relative bg-cover bg-center md:pb-52 bg-[url('/assets/Bg-Home.jpg')]">
-          <Hero/>
-        </section>
-        <section>
-          <Banner/>
-          <About/>
-        </section>
-        <section className="bg-[#F6F8FA] md:pt-40 pt-20 md:pb-52 pb-30">
-         <Services/>
-        </section>
-        <section className="md:pt-40 pt-20 md:pb-40 pb-26">
-          <Pricing/>
-        </section>
-        <section className="bg-[#F6F8FA] md:pt-40 pt-18 md:pb-52 pb-30">
-          <Faq/>
-        </section>
-        <section className="md:pt-40 pt-18 md:pb-40 pb-30">
-          <Testimonial/>
-        </section>
-        <section className="bg-[#9D4EDD] md:pt-30 pt-18 md:pb-30 pb-30">
-          <Cta/>
-        </section>
-        <section className="md:pt-40 pt-20 md:pb-52 pb-26 ">
-          <Blog/>
-        </section>
-      </main>
-
-      {/* ---------------------------
-            Footer global
-      ---------------------------- */}
-      <Footer/>
-    </>
+    <HomeView/>
   );
 }

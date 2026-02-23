@@ -4,12 +4,12 @@ import Link from "next/link";
 import { Phone, Rocket } from "lucide-react";
 import Image from "next/image";
 
-export default function Accueil() {
+export const Hero = () => {
   return (
-    <div id="home" className="w-full max-w-7xl mx-auto flex flex-wrap md:flex-nowrap items-center gap-10 md:gap-20 px-6 mt-0 pt-38 md:-mt-2 md:pt-60 md:pb-0">
-      {/* ---------------------------
-            Presentation text
-      ---------------------------- */}
+    <div id="home" className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-20 px-6 mt-0 pt-38 md:-mt-2 md:pt-60 md:pb-0">
+      {/* ----------------------------------------
+          BLOC LEFT: Text Presentation 
+      ----------------------------------------------- */}
       <motion.div
         initial={{ x: -50, opacity: 0, scale: 0.95 }}
         whileInView={{ x: 0, opacity: 1, scale: 1 }} 

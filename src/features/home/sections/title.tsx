@@ -4,7 +4,7 @@ interface TitleProps {
   heading: string;
 }
 
-export default function Title({ title, heading}: TitleProps) {
+export const Title = ({ title, heading}: TitleProps) => {
   return (
     <div className="text-center max-w-2xl mx-auto">
       {/* Title */}
