@@ -97,40 +97,6 @@ The configuration will be done in a `.env.local` file.
 
 ---
 
-## Project Structure
-
-```
-/app
-├── favicon.ico
-├── globals.css
-├── layout.tsx
-├── page.tsx
-
-/components
-├── Header.tsx
-├── Hero.tsx
-├── Banner.tsx
-├── About.tsx
-├── Service.tsx
-├── Pricing.tsx
-├── Testimonial.tsx
-├── Faq.tsx
-├── Cta.tsx
-├── blog.tsx
-├── Footer.tsx
-
-/public
-├── assets/
-├── next.svg
-
-.env
-.gitignore
-README.md
-package.json
-```
-
----
-
 ## License
 
 This project is licensed under the MIT License.
@@ -142,3 +108,6 @@ You are free to use, modify, and redistribute it.
 
 **Tiemtore Samuel**
 Email: [samueltiemtore10@gmail.com](mailto:samueltiemtore10@gmail.com)
+
+**voire le site WebShift**
+site-vitrine-web-shift.vercel.app
