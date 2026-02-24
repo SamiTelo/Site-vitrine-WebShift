@@ -45,8 +45,8 @@ export const services: Service[] = [
   {
     id: "performance",
     cardIcon: BarChart2,
-    featureIcon: "/assets/icon2.png",
-    symbol: "/assets/symbol.png",
+    featureIcon: "/assets/Icon2.png",
+    symbol: "/assets/Symbol.png",
     title: "Performance",
     description: "Une solution complète pour maximiser votre ROI",
     pricing: "499 $ / mo",

@@ -103,7 +103,7 @@ export const Hero = () => {
         className="md:-mb-52 md:ml-0 ml-8"
       >
         <Image
-          src="/assets/img.png"
+          src="/assets/hero-img.png"
           alt="img hero"
           width={452}
           height={771}
