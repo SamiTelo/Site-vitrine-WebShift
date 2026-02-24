@@ -8,7 +8,7 @@ export const Cta = () => {
     <div className="w-full max-w-7xl mx-auto flex flex-row flex-wrap-reverse md:gap-30 gap-16 justify-center">
       
       {/* ---------------------------
-           cta text
+        BLOC LEFT:   cta text
       ---------------------------- */}
       <div id="cta" className="flex flex-col w-[750px] text-white">
         <motion.div
@@ -58,7 +58,7 @@ export const Cta = () => {
       </div>
 
       {/* ---------------------------
-           cta image
+        BLOC RIGHT:  cta image
       ---------------------------- */}
       <motion.div
         initial={{ y: 50, opacity: 0, scale: 0.95 }}
