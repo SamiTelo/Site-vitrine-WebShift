@@ -5,8 +5,8 @@ export const services: Service[] = [
   {
     id: "starter",
     cardIcon: Zap,
-    featureIcon: "/assets/icon2.png",
-    symbol: "/assets/symbol.png",
+    featureIcon: "/assets/Icon2.png",
+    symbol: "/assets/Symbol.png",
     title: "Starter",
     description:
       "Idéal pour les petites entreprises qui veulent renforcer leur présence",
@@ -25,8 +25,8 @@ export const services: Service[] = [
   {
     id: "growth",
     cardIcon: TrendingUp,
-    featureIcon: "/assets/icon2.png",
-    symbol: "/assets/symbol.png",
+    featureIcon: "/assets/Icon2.png",
+    symbol: "/assets/Symbol.png",
     title: "Growth",
     description:
       "Conçu pour les entreprises en croissance qui souhaitent générer plus",
