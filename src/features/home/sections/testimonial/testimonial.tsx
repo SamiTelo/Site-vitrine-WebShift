@@ -1,8 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { CarouselPlugin } from "./carousel";
-import { Title } from "./title";
+import { Title } from "../title";
+import { CarouselPlugin } from "./components/testimonial-carousel";
 
 export const Testimonial = () => {
   return (
@@ -32,7 +32,8 @@ export const Testimonial = () => {
             TESTIMONIAL
       ---------------------------- */}
       <div className="flex flex-row flex-wrap-reverse md:gap-20 lg:gap-10 gap-16 justify-center md:mt-40 mt-20">
-        {/* Images */}
+
+        {/* BLOC LEFT: Images */}
         <motion.div
           initial={{ y: 100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -54,9 +55,9 @@ export const Testimonial = () => {
           />
         </motion.div>
 
-        {/* carousel */}
+        {/* BLOC RIGHT: carousel */}
         <div>
-          <CarouselPlugin />
+          <CarouselPlugin/>
         </div>
       </div>
     </div>

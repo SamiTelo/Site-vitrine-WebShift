@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import { About } from "./sections/about";
 import { Header } from "./sections/header";
 import { Banner } from "./sections/banner";
-import { Faq } from "./sections/faq";
-import { Testimonial } from "./sections/testimonial";
+import { Faq } from "./sections/faq/faq";
+import { Testimonial } from "./sections/testimonial/testimonial";
 import { Cta } from "./sections/cta";
 import { Blog } from "./sections/blog";
 import { Services } from "./sections/services";
 import { Hero } from "./sections/hero";
-import { Pricing } from "./sections/pricing";
 import { Footer } from "./sections/footer";
+import { PricingSection } from "./sections/pricing/pricing-section";
 
 
 
@@ -44,7 +44,7 @@ export const HomeView = () => {
   return (
     <>
       {/* ---------------------------
-            Header global
+           global Header
       ---------------------------- */}
       <Header />
 
@@ -63,7 +63,7 @@ export const HomeView = () => {
          <Services/>
         </section>
         <section className="md:pt-40 pt-20 md:pb-40 pb-26">
-          <Pricing/>
+          <PricingSection/>
         </section>
         <section className="bg-[#F6F8FA] md:pt-40 pt-18 md:pb-52 pb-30">
           <Faq/>
@@ -80,7 +80,7 @@ export const HomeView = () => {
       </main>
 
       {/* ---------------------------
-            Footer global
+           global  Footer
       ---------------------------- */}
       <Footer/>
     </>

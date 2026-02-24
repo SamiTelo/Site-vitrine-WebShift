@@ -6,7 +6,8 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <div id="home" className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-20 px-6 mt-0 pt-38 md:-mt-2 md:pt-60 md:pb-0">
+    <div id="home" className="w-full max-w-7xl mx-auto flex flex-row flex-wrap items-center gap-10 md:gap-20 px-6 mt-0 pt-38 md:-mt-2 md:pt-60 md:pb-0">
+      
       {/* ----------------------------------------
           BLOC LEFT: Text Presentation 
       ----------------------------------------------- */}
@@ -26,7 +27,7 @@ export const Hero = () => {
         <motion.div
           animate={{ y: [0, -5, 0] }}
           transition={{ repeat: Infinity, duration: 1, ease: "easeInOut" }}
-          className="bg-[#EBDCF8] w-fit h-[38px] rounded-full border border-[#9D4EDD] flex flex-row gap-1 justify-items-center px-3"
+          className="bg-[#EBDCF8] w-fit h-[38px] max-w-7xl mx-auto md:max-w-7xl md:mx-0 rounded-full border border-[#9D4EDD] flex flex-row gap-1 justify-items-center px-3"
         >
           <div className="pt-2">
             <Image
@@ -94,7 +95,7 @@ export const Hero = () => {
       </motion.div>
 
       {/* -------------------------------------------
-             Image with Horizontal Oscillation
+           BLOC RIGHT:  Image with Horizontal Oscillation
       ------------------------------------------------- */}
       <motion.div
         animate={{ x: [0, -15, 0] }} // Horizontal oscillation

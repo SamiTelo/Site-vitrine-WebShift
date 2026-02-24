@@ -2,14 +2,14 @@
 import { Star } from "lucide-react";
 import * as React from "react";
 import Image from "next/image";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/src/components/ui/card";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "@/src/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
 export const CarouselPlugin = () => {

@@ -42,7 +42,7 @@ export const Cta = () => {
         </motion.div>
 
         {/* newsletter */}
-        <div className="relative max-w-md md:w-full w-[320px] mt-8 md:mx-0 mx-6">
+        <div className="relative max-w-md md:w-full w-[358px] mt-8 md:mx-0 mx-6">
           <div className="flex items-center p-1.5 bg-white rounded-full shadow-lg">
             <input
               type="email"

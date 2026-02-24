@@ -6,10 +6,13 @@ import { MoveUpRight } from "lucide-react";
 
 export const About = () => {
   return (
-    <div id="about" className="w-full max-w-7xl mx-auto md:mt-40 mt-16 md:mb-46 mb-20 flex flex-row flex-wrap  md:gap-30">
-      {/* ---------------------------
-            Images
-      ---------------------------- */}
+    <div
+      id="about"
+      className="w-full max-w-7xl mx-auto md:mt-40 mt-16 md:mb-46 mb-20 flex flex-row flex-wrap  md:gap-30"
+    >
+      {/* ----------------------------------------------
+           BLOC LEFT: Images
+      ------------------------------------------------ */}
       <motion.div
         initial={{ x: -50, opacity: 0, scale: 0.95 }}
         whileInView={{ x: 0, opacity: 1, scale: 1 }}
@@ -22,25 +25,25 @@ export const About = () => {
         }}
         className="flex flex-row md:ml-4 mx-6 md:mx-0 relative"
       >
-        {/* Image principale */}
+        {/* First image */}
         <Image
           src="/assets/about1.png"
           alt="Stratégie marketing digital"
           width={204}
           height={200}
-          className="w-[200px] md:w-[320px] md:h-[461px] h-auto mt-8 md:mt-16 mr-2 md:mr-6 rounded-2xl"
+          className="w-[200px] md:w-[320px] md:h-[461px] h-auto mt-8 md:mt-16 mr-4 md:mr-6 rounded-2xl"
         />
 
-        {/* Image secondaire */}
+        {/* Second image */}
         <Image
           src="/assets/about2.png"
           alt="Équipe WebShift"
           width={204}
           height={200}
-          className="w-[120px] md:w-[252px] h-[250px] md:h-[360px] rounded-xl"
+          className="w-[142px] md:w-[252px] h-[250px] md:h-[360px] rounded-xl"
         />
 
-        {/* Bloc 100% qualité */}
+        {/* small Bloc quality */}
         <div className="bg-[#9D4EDD] w-[120px] md:w-[252px] md:h-[138px] h-[50px] rounded-xl absolute top-[260px] left-[194px] md:top-[388px] md:left-[346px] flex flex-col justify-center items-start p-4">
           <p className="font-bold text-white text-xl md:text-4xl ml-4 md:ml-8">
             100%
@@ -52,7 +55,7 @@ export const About = () => {
       </motion.div>
 
       {/* ---------------------------
-            About text
+          BLOC RIGHT:  About text
       ---------------------------- */}
       <motion.div
         initial={{ y: 100, opacity: 0 }}
@@ -82,32 +85,25 @@ export const About = () => {
             </h6>
           </div>
         </div>
-
         <br />
-
         <div className="mx-6 md:mx-0">
           <h1 className="font-semibold text-2xl md:text-4xl w-fit md:w-[510px]">
             L’agence digitale qui transforme votre visibilité en résultats
             concrets
           </h1>
-
           <br />
-
           <p className="w-fit md:w-[510px]">
             WebShift accompagne les entreprises ambitieuses dans leur croissance
             digitale. De la stratégie marketing à l’optimisation SEO, en passant
             par la création de sites performants et la gestion des campagnes
             publicitaires, nous construisons des solutions orientées résultats.
           </p>
-
           <br />
-
           <p className="w-fit md:w-[510px]">
             Notre approche combine analyse des données et créativité pour
             générer plus de trafic, améliorer vos conversions et maximiser votre
             retour sur investissement.
           </p>
-
           <div className="mt-3 pt-3">
             <Link href="">
               <motion.div
@@ -129,4 +125,4 @@ export const About = () => {
       </motion.div>
     </div>
   );
-}
+};

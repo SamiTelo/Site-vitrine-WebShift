@@ -33,7 +33,7 @@ export const Banner = () => {
         speed={50}     
         gradient={false}      
       >
-        {/* Duplication pour scroll infini */}
+        {/* Duplication  for infini scroll */}
         {[...logos, ...logos].map((src, index) => (
           <div key={index} className="mx-6 md:mx-12">
             <Image
