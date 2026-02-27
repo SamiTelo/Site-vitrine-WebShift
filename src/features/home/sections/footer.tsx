@@ -167,7 +167,7 @@ export const Footer = () => {
         <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-600 text-center md:text-left">
             Copyright {currentYear} WebShift | Design & développement par{" "}
-            <span className="font-semibold">SAM DEV</span> | Tous droits
+            <span className="font-semibold">Samuel TIEMTORE</span> | Tous droits
             réservés
           </p>
           <div className="flex items-center gap-4 bg-white p-2 px-4 rounded-lg">

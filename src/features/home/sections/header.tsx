@@ -100,8 +100,8 @@ export const Header = () => {
               <NavLinkMobile href="#about">About</NavLinkMobile>
               <NavLinkMobile href="#services">Services</NavLinkMobile>
               <NavLinkMobile href="#pricing">Pricing</NavLinkMobile>
-              <NavLink href="#FAQ">FAQ</NavLink>
-              <NavLink href="#blog">Blog</NavLink>
+              <NavLinkMobile href="#FAQ">FAQ</NavLinkMobile>
+              <NavLinkMobile href="#blog">Blog</NavLinkMobile>
               <NavLinkMobile href="#contact">Contact</NavLinkMobile>
 
               <div className="border-t border-slate-200 mt-3 pt-3">

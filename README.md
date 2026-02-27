@@ -109,5 +109,5 @@ You are free to use, modify, and redistribute it.
 **Tiemtore Samuel**
 Email: [samueltiemtore10@gmail.com](mailto:samueltiemtore10@gmail.com)
 
-**voire le site WebShift**
+**See site WebShift**
 site-vitrine-web-shift.vercel.app

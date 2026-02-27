@@ -27,7 +27,7 @@ export const Hero = () => {
         <motion.div
           animate={{ y: [0, -5, 0] }}
           transition={{ repeat: Infinity, duration: 1, ease: "easeInOut" }}
-          className="bg-[#EBDCF8] w-fit h-[38px] max-w-7xl mx-auto md:max-w-7xl md:mx-0 rounded-full border border-[#9D4EDD] flex flex-row gap-1 justify-items-center px-3"
+          className="bg-[#EBDCF8] w-fit h-10 max-w-7xl mx-auto md:max-w-7xl md:mx-0 rounded-full border border-[#9D4EDD] flex flex-row gap-1 justify-items-center px-3"
         >
           <div className="pt-2">
             <Image
@@ -98,7 +98,7 @@ export const Hero = () => {
            BLOC RIGHT:  Image with Horizontal Oscillation
       ------------------------------------------------- */}
       <motion.div
-        animate={{ x: [0, -15, 0] }} // Horizontal oscillation
+        animate={{ x: [0, -15, 0] }} 
         transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
         className="md:-mb-52 md:ml-0 ml-8"
       >

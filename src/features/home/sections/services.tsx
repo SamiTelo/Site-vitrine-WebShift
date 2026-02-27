@@ -50,6 +50,10 @@ const services = [
 ];
 
 export const Services = () => {
+
+  {/* ----------------------------------------
+        ANIMATION
+  --------------------------------------- */}
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -65,6 +69,7 @@ export const Services = () => {
 
   return (
     <div id="services" className="w-full max-w-7xl mx-auto">
+      
       {/* ---------------------------
             TITLE
       ---------------------------- */}
