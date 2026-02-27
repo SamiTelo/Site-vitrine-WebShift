@@ -6,19 +6,17 @@ import Image from "next/image";
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
-  
 
   return (
-    <header className="w-full fixed top-6 left-0 z-40 px-[5%] transition-all duration-300">
+    <header className="fixed top-6 inset-x-0 z-40 transition-all duration-300 px-4 md:px-0">
       <nav className="max-w-7xl mx-auto py-3 px-4 sm:px-6 lg:px-8 bg-white/76 backdrop-blur shadow-sm md:rounded-xl md:mt-2">
         <div className="flex items-center justify-between h-16">
-          {/* -------------------------------
+          
+           {/* -------------------------------
                 Logo
           -------------------------------- */}
           <div className="flex items-center gap-4">
-            <div
-              className="relative w-12 h-12 md:w-14 md:h-14"
-            >
+            <div className="relative w-12 h-12 md:w-14 md:h-14">
               <Image
                 src="/assets/logo.png"
                 alt="logo"
@@ -34,7 +32,7 @@ export const Header = () => {
           {/* -------------------------------
                 Desktop Links
           -------------------------------- */}
-          <div className="hidden md:flex items-center gap-8 ml-28">
+          <div className="hidden md:flex items-center gap-8">
             <NavLink href="#home">Home</NavLink>
             <NavLink href="#about">About</NavLink>
             <NavLink href="#services">Services</NavLink>
@@ -44,7 +42,7 @@ export const Header = () => {
             <NavLink href="#contact">Contact</NavLink>
           </div>
 
-          {/* -------------------------------
+           {/* -------------------------------
                 Desktop Button Action
           -------------------------------- */}
           <div className="hidden md:flex items-center">
@@ -96,11 +94,11 @@ export const Header = () => {
         {open && (
           <div className="md:hidden mt-2 pb-40 pt-20">
             <div className="flex flex-col gap-2 px-2 items-center">
-              <NavLinkMobile href="#accueil">Accueil</NavLinkMobile>
+              <NavLinkMobile href="#home">Accueil</NavLinkMobile>
               <NavLinkMobile href="#about">About</NavLinkMobile>
               <NavLinkMobile href="#services">Services</NavLinkMobile>
               <NavLinkMobile href="#pricing">Pricing</NavLinkMobile>
-              <NavLinkMobile href="#FAQ">FAQ</NavLinkMobile>
+              <NavLinkMobile href="#faq">FAQ</NavLinkMobile>
               <NavLinkMobile href="#blog">Blog</NavLinkMobile>
               <NavLinkMobile href="#contact">Contact</NavLinkMobile>
 
@@ -119,12 +117,11 @@ export const Header = () => {
       </nav>
     </header>
   );
-}
+};
 
 /* ---------------------------------
         LINK COMPONENTS
 ----------------------------------- */
-
 type NavLinkProps = {
   href: string;
   children: React.ReactNode;
