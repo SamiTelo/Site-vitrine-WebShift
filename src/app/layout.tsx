@@ -12,18 +12,25 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-{/* ---------------------------
+{
+  /* ---------------------------
       SEO minimal (Global)
-  ---------------------------- */}
+  ---------------------------- */
+}
 export const metadata: Metadata = {
   title: {
-    default: "WebShift — Agence de Marketing Digital & Stratégies de Croissance",
+    default:
+      "WebShift — Agence de Marketing Digital & Stratégies de Croissance",
     template: "%s | WebShift",
   },
   description:
     "WebShift est une agence de marketing digital spécialisée en SEO, publicité en ligne et stratégies digitales performantes en Afrique.",
-};
 
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+  },
+};
 
 export default function RootLayout({
   children,
