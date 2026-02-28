@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <div id="home" className="w-full max-w-7xl mx-auto flex flex-row flex-wrap items-center gap-10 md:gap-20 px-6 mt-0 pt-38 md:-mt-2 md:pt-60 md:pb-0">
+    <div id="home" className="w-full max-w-7xl mx-auto flex flex-row flex-wrap items-center gap-10 md:gap-20 px-6 mt-0 pt-20 md:-mt-24 md:pt-60 md:pb-0">
       
       {/* ----------------------------------------
           BLOC LEFT: Text Presentation 

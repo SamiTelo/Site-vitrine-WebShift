@@ -8,7 +8,7 @@ export const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed md:top-6 top-0 inset-x-0 z-40 transition-all duration-300">
+    <header className="sticky md:top-6 top-0 inset-x-0 z-40 transition-all duration-300">
       <nav className="max-w-7xl mx-auto py-3 px-4 sm:px-6 lg:px-8 bg-white/76 backdrop-blur shadow-sm md:rounded-xl md:mt-2">
         <div className="flex items-center justify-between h-16">
           
