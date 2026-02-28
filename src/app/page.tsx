@@ -8,7 +8,7 @@ import type { Metadata } from "next";
       SEO minimal
   ---------------------------- */}
 export const metadata: Metadata = {
- title: "Accueil",
+ title: "WebShift — Agence de Marketing Digital & Stratégies de Croissance",
   description:
     "WebShift accompagne les entreprises avec des stratégies SEO, publicité en ligne et gestion des réseaux sociaux pour accélérer leur croissance.",
   keywords: [

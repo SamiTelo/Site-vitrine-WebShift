@@ -30,6 +30,10 @@ export const metadata: Metadata = {
     width: "device-width",
     initialScale: 1,
   },
+
+   icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
