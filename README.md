@@ -84,18 +84,6 @@ npm run build
 
 ---
 
-## Contact Form Configuration (Coming Soon)
-
-You will be able to choose between:
-
-* **EmailJS** (simple, no backend required)
-* **Backend API** (NestJS, Node.js, PHP…)
-* **External services** (Brevo, Mailgun, SendGrid etc...)
-
-The configuration will be done in a `.env.local` file.
-
----
-
 ## License
 
 This project is licensed under the MIT License.
