@@ -3,10 +3,10 @@
 import { motion } from "framer-motion";
 import { services } from "./data/services";
 import { fadeUp } from "./animations";
-import { Title } from "../title";
+import { Title } from "../home/components/title";
 import { PricingCard } from "./components/pricing-card";
 
-export function PricingSection() {
+export function Pricing() {
   return (
     <div id="pricing" className="w-full max-w-7xl mx-auto">
       <motion.div

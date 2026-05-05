@@ -29,7 +29,9 @@ export function PricingCard({ service }: { service: Service }) {
         </p>
         <p className="mt-4 text-3xl font-bold">{service.pricing}</p>
         <Link
-          href="#"
+          href={`https://wa.me/+2250787109415?text=${encodeURIComponent("Bonjour, je souhaite obtenir un devis ou forfait pour votre service.")}`}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center mt-8 px-16 py-3 rounded-xl bg-[#9D4EDD] text-white text-sm shadow-sm hover:scale-105 hover:bg-black transition-all"
         >
           Obtenir le forfait

@@ -47,7 +47,6 @@ This website was designed to showcase a digital marketing agency, highlight its 
 
 ## Upcoming Features
 
-* **EmailJS / Internal API (coming soon)** — For estimate submission
 * **Add other feature and section**
 
 
@@ -128,7 +127,7 @@ npm run build
 
 ## Author
 
-- **TIEMTORE SAMUEL**
+- **Samuel TIEMTORE**
 - Email: [samueltiemtore10@gmail.com](mailto:samueltiemtore10@gmail.com)
 
 ## License
