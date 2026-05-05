@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { About } from "./sections/about";
-import { Header } from "./sections/header";
-import { Banner } from "./sections/banner";
-import { Faq } from "./sections/faq/faq";
-import { Testimonial } from "./sections/testimonial/testimonial";
-import { Cta } from "./sections/cta";
-import { Blog } from "./sections/blog";
-import { Services } from "./sections/services";
-import { Hero } from "./sections/hero";
-import { Footer } from "./sections/footer";
-import { PricingSection } from "./sections/pricing/pricing-section";
+import { About } from "./components/about";
+import { Header } from "./components/header";
+import { Banner } from "./components/banner";
+import { Faq } from "./components/faq";
+import { Testimonial } from "./components/testimonial";
+import { Cta } from "./components/cta";
+import { Blog } from "./components/blog";
+import { Services } from "./components/services";
+import { Hero } from "./components/hero";
+import { Footer } from "./components/footer";
+import { Pricing } from "../pricing/pricing-section";
 
 
 
@@ -63,7 +63,7 @@ export const HomeView = () => {
          <Services/>
         </section>
         <section className="md:pt-40 pt-20 md:pb-40 pb-26">
-          <PricingSection/>
+          <Pricing/>
         </section>
         <section className="bg-[#F6F8FA] md:pt-40 pt-18 md:pb-52 pb-30">
           <Faq/>

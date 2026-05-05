@@ -19,35 +19,35 @@ export const CarouselPlugin = () => {
 
   const testimonials = [
     {
-      name: "Aminata Koné",
+      name: "Clara Lefebvre",
       role: "CEO, StartUp Tech",
       photo: "/assets/photo1.png",
       rating: 5,
       text: "Grâce à WebShift, notre trafic web a doublé en seulement 3 mois et notre taux de conversion a considérablement progressé. Une équipe réactive, stratégique et toujours à l’écoute !",
     },
     {
-      name: "Cheick Diabaté",
+      name: "Thomas Muller",
       role: "Directeur Marketing",
       photo: "/assets/photo4.png",
       rating: 5,
       text: "Leur approche data-driven a complètement transformé nos campagnes publicitaires. Un ROI tangible, des conseils personnalisés et un accompagnement de qualité – je recommande vivement !",
     },
     {
-      name: "Fatou Bamba",
+      name: "Giulia Rossi",
       role: "Fondatrice e-commerce",
       photo: "/assets/photo3.png",
       rating: 5,
       text: "WebShift a conçu notre site e-commerce de A à Z et pris en charge la gestion complète de nos campagnes Ads. Grâce à leur stratégie et leur expertise, nos ventes ont considérablement augmenté et notre visibilité en ligne s’est renforcée",
     },
     {
-      name: "Mohamed Traoré",
+      name: "Lucas Dubois",
       role: "Responsable Communication",
       photo: "/assets/photo4.png",
       rating: 5,
       text: "Une équipe professionnelle, créative et toujours à l’écoute. Grâce à eux, notre présence digitale est désormais solide, cohérente et impactante sur tous les canaux.",
     },
     {
-      name: "Adama Coulibaly",
+      name: "Marc André",
       role: "Entrepreneur",
       photo: "/assets/photo5.png",
       rating: 5,

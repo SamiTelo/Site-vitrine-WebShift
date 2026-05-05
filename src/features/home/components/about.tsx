@@ -7,7 +7,6 @@ import { MoveUpRight } from "lucide-react";
 export const About = () => {
   return (
     <div
-      id="about"
       className="w-full max-w-7xl mx-auto md:mt-40 mt-16 md:mb-46 mb-20 flex flex-row flex-wrap  md:gap-30"
     >
       {/* ----------------------------------------------

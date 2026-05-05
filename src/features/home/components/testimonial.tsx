@@ -1,8 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Title } from "../title";
-import { CarouselPlugin } from "./components/testimonial-carousel";
+import { Title } from "./title";
+import { CarouselPlugin } from "./testimonial-carousel";
 
 export const Testimonial = () => {
   return (

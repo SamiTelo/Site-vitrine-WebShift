@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { AccordionMultiple } from "./components/faq-accordéon";
+import { AccordionMultiple } from "./faq-accordéon";
 
 export const Faq = () => {
   return (

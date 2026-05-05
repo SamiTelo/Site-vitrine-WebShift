@@ -11,8 +11,7 @@ export const Header = () => {
     <header className="sticky md:top-6 top-0 inset-x-0 z-40 transition-all duration-300">
       <nav className="max-w-7xl mx-auto py-3 px-4 sm:px-6 lg:px-8 bg-white/76 backdrop-blur shadow-sm md:rounded-xl md:mt-2">
         <div className="flex items-center justify-between h-16">
-          
-           {/* -------------------------------
+          {/* -------------------------------
                 Logo
           -------------------------------- */}
           <div className="flex items-center gap-4">
@@ -42,12 +41,14 @@ export const Header = () => {
             <NavLink href="#contact">Contact</NavLink>
           </div>
 
-           {/* -------------------------------
+          {/* -------------------------------
                 Desktop Button Action
           -------------------------------- */}
           <div className="hidden md:flex items-center">
             <Link
-              href="#"
+              href={`https://wa.me/+2250787109415?text=${encodeURIComponent("Bonjour, je souhaite obtenir un devis ou forfait pour votre service.")}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 bg-[#9D4EDD] text-white rounded-full text-sm shadow-sm hover:scale-105 hover:bg-black transition-all duration-300"
             >
               <MoveUpRight className="w-4 h-4" />
@@ -104,7 +105,9 @@ export const Header = () => {
 
               <div className="border-t border-slate-200 mt-3 pt-3">
                 <Link
-                  href="#"
+                  href={`https://wa.me/+2250787109415?text=${encodeURIComponent("Bonjour, je souhaite obtenir un devis ou forfait pour votre service.")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-8 mt-6 py-4 bg-[#9D4EDD] text-white rounded-full text-sm shadow-sm hover:scale-105 hover:bg-black transition-all duration-300"
                 >
                   <MoveUpRight className="w-4 h-4" />
