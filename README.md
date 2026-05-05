@@ -54,15 +54,15 @@ This website was designed to showcase a digital marketing agency, highlight its 
 
 ## Screenshots
 
-| Home | Banner |
+| Hero | Banner |
 |-------|---------|
-| ![home](./assets/screenshots/home.png) | ![banner](./assets/screenshots/banner.png) |
+| ![hero](./assets/screenshots/hero.png) | ![banner](./assets/screenshots/banner.png) |
 | About | Services |
 | ![about](./assets/screenshots/about.png) | ![service](./assets/screenshots/service.png) |
 | Pricing | FAQS |
 | ![pricing](./assets/screenshots/pricing-section.png) | ![faq](./assets/screenshots/faq.png) |
 | Testimonial | CTA |
-| ![testimonial](./assets/screenshots/project.png) | ![cta](./assets/screenshots/cta.png) |
+| ![testimonial](./assets/screenshots/testimonial.png) | ![cta](./assets/screenshots/cta.png) |
 | Blog | Footer |
 | ![blog](./assets/screenshots/blog.png) | ![footer](./assets/screenshots/footer.png) |
 
@@ -128,8 +128,8 @@ npm run build
 
 ## Author
 
-**Tiemtore Samuel**
-Email: [samueltiemtore10@gmail.com](mailto:samueltiemtore10@gmail.com)
+- **TIEMTORE SAMUEL**
+- Email: [samueltiemtore10@gmail.com](mailto:samueltiemtore10@gmail.com)
 
 ## License
 
